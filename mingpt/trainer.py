@@ -27,7 +27,7 @@ class TrainerConfig:
     grad_norm_clip = 1.0
     weight_decay = 0.1
     betas = (0.9, 0.95)
-    ckpt_path = './'
+    ckpt_path = './model.pt'
     num_workers = 0
 
     def __init__(self, **kwargs):
@@ -97,6 +97,8 @@ class Trainer:
                     pbar.set_description(
                         f"epoch {epoch+1} iter {it}: train loss {loss.item():.5f}. lr {lr:e}")
 
+                    if it%400==0:
+                        self.save_checkpoint()
+
         for epoch in range(config.max_epochs):
             run_epoch('train')
-            torch.save(model, open(config.ckpt_path, 'wb'))

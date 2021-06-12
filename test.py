@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 from torch.utils.data import Dataset
+import pickle
 
 class CharDataset(Dataset):
 
@@ -29,6 +30,8 @@ class CharDataset(Dataset):
 block_size = 128
 text = open('input.txt', 'r').read()
 train_dataset = CharDataset(text, block_size)
+pickle.dump(train_dataset,open("train_dataset.pkl","wb"))
+
 
 from mingpt.model import GPT, GPTConfig
 mconf = GPTConfig(train_dataset.vocab_size, train_dataset.block_size, n_layer=8, n_head=8, n_embd=512)
@@ -42,6 +45,6 @@ while True:
     trainer.train()
     context = "O God, O God!"
     x = torch.tensor([train_dataset.stoi[s] for s in context], dtype=torch.long)[None,...].to(trainer.device)
-    y = sample(model, x, 200, temperature=1.0, sample=True, top_k=10)[0]
+    y = sample(model, x, 100, temperature=1.0, sample=True, top_k=10)[0]
     completion = ''.join([train_dataset.itos[int(i)] for i in y])
     print(completion)

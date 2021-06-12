@@ -1,0 +1,98 @@
+2021-06-12 06:53:45.617939: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+
+NOTE: Using experimental fast data loading logic. To disable, pass
+    "--load_fast=false" and report issues on GitHub. More details:
+    https://github.com/tensorflow/tensorboard/issues/4784
+
+I0612 06:53:48.473077 140684769154816 plugin.py:85] Monitor runs begin
+Serving TensorBoard on localhost; to expose to the network, use a proxy or pass --bind_all
+TensorBoard 2.5.0 at http://localhost:6006/ (Press CTRL+C to quit)
+TensorBoard caught SIGTERM; exiting...
+[I 07:36:24.359 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[W 07:36:24.639 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 07:36:25.093 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 07:36:25.093 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 07:36:25.567 NotebookApp] [nb_conda] enabled
+[I 07:36:25.679 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 07:36:25.679 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 07:36:25.679 NotebookApp] Serving notebooks from local directory: /home/zhonglj2019/minGPT
+[I 07:36:25.679 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 07:36:25.679 NotebookApp] http://localhost:8765/
+[I 07:36:25.680 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:36:25.685 NotebookApp] No web browser found: could not locate runnable browser.
+[I 07:37:52.994 NotebookApp] 302 GET / (::1) 0.59ms
+[I 07:37:54.840 NotebookApp] 302 GET / (::1) 0.71ms
+[I 07:37:55.094 NotebookApp] Kernel started: f37e4b15-f578-44ad-a338-c4469531eea4, name: python3
+[I 07:37:55.958 NotebookApp] 302 GET / (::1) 0.54ms
+[I 07:37:55.962 NotebookApp] proxying WebSocket connection to: ws://localhost:8765/api/kernels/f37e4b15-f578-44ad-a338-c4469531eea4/channels?session_id=8d5563b29de54f619c4d94962345bb40&jupyter_http_over_ws_auth_url=http%3A%2F%2Flocalhost%3A8765%2F
+2021-06-12 07:40:37.878068: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+[I 07:42:10.952 NotebookApp] Starting buffering for f37e4b15-f578-44ad-a338-c4469531eea4:8d5563b29de54f619c4d94962345bb40
+[I 07:44:24.276 NotebookApp] 302 GET / (::1) 0.47ms
+[I 07:44:24.857 NotebookApp] 302 GET / (::1) 0.76ms
+[I 07:44:25.695 NotebookApp] 302 GET / (::1) 0.40ms
+[I 07:44:25.698 NotebookApp] proxying WebSocket connection to: ws://localhost:8765/api/kernels/f37e4b15-f578-44ad-a338-c4469531eea4/channels?session_id=0b18789f11d74381deff59d513541291&jupyter_http_over_ws_auth_url=http%3A%2F%2Flocalhost%3A8765%2F
+[I 07:46:58.690 NotebookApp] 302 GET / (::1) 0.57ms
+[I 07:47:01.308 NotebookApp] Kernel restarted: f37e4b15-f578-44ad-a338-c4469531eea4
+[I 07:50:02.263 NotebookApp] 302 GET / (::1) 0.69ms
+[I 07:50:03.577 NotebookApp] Kernel restarted: f37e4b15-f578-44ad-a338-c4469531eea4
+[I 07:51:09.810 NotebookApp] 302 GET / (::1) 0.67ms
+[I 07:51:10.423 NotebookApp] Kernel restarted: f37e4b15-f578-44ad-a338-c4469531eea4
+[I 08:03:09.138 NotebookApp] Starting buffering for f37e4b15-f578-44ad-a338-c4469531eea4:0b18789f11d74381deff59d513541291
+[C 08:03:09.140 NotebookApp] received signal 15, stopping
+[I 08:03:09.141 NotebookApp] Shutting down 1 kernel
+[I 08:03:09.642 NotebookApp] Kernel shutdown: f37e4b15-f578-44ad-a338-c4469531eea4
+[I 08:03:09.643 NotebookApp] Shutting down 0 terminals
+jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
+2021-06-12 08:24:35.524903: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+
+NOTE: Using experimental fast data loading logic. To disable, pass
+    "--load_fast=false" and report issues on GitHub. More details:
+    https://github.com/tensorflow/tensorboard/issues/4784
+
+I0612 08:24:38.693908 140716214843136 plugin.py:85] Monitor runs begin
+Serving TensorBoard on localhost; to expose to the network, use a proxy or pass --bind_all
+TensorBoard 2.5.0 at http://localhost:6006/ (Press CTRL+C to quit)
+2021-06-12 09:04:53.968842: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+
+NOTE: Using experimental fast data loading logic. To disable, pass
+    "--load_fast=false" and report issues on GitHub. More details:
+    https://github.com/tensorflow/tensorboard/issues/4784
+
+I0612 09:04:55.249392 140405441820416 plugin.py:85] Monitor runs begin
+Serving TensorBoard on localhost; to expose to the network, use a proxy or pass --bind_all
+TensorBoard 2.5.0 at http://localhost:6007/ (Press CTRL+C to quit)
+TensorBoard caught SIGTERM; exiting...
+TensorBoard caught SIGTERM; exiting...
+2021-06-12 09:06:50.243535: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+
+NOTE: Using experimental fast data loading logic. To disable, pass
+    "--load_fast=false" and report issues on GitHub. More details:
+    https://github.com/tensorflow/tensorboard/issues/4784
+
+I0612 09:06:53.635107 139778502424320 plugin.py:85] Monitor runs begin
+Serving TensorBoard on localhost; to expose to the network, use a proxy or pass --bind_all
+TensorBoard 2.5.0 at http://localhost:6006/ (Press CTRL+C to quit)
+[I 09:07:01.829 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[W 09:07:02.267 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 09:07:03.239 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 09:07:03.239 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 09:07:04.260 NotebookApp] [nb_conda] enabled
+[I 09:07:04.527 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 09:07:04.527 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 09:07:04.528 NotebookApp] Serving notebooks from local directory: /home/zhonglj2019/minGPT
+[I 09:07:04.528 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:07:04.528 NotebookApp] http://localhost:8765/
+[I 09:07:04.528 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:07:04.588 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:07:17.548 NotebookApp] 302 GET / (::1) 0.92ms
+[I 09:07:18.779 NotebookApp] 302 GET / (::1) 1.09ms
+[I 09:07:19.097 NotebookApp] Kernel started: d34712c3-33eb-4986-90fd-ca682cb923d4, name: python3
+[I 09:07:20.089 NotebookApp] 302 GET / (::1) 0.99ms
+[I 09:07:20.096 NotebookApp] proxying WebSocket connection to: ws://localhost:8765/api/kernels/d34712c3-33eb-4986-90fd-ca682cb923d4/channels?session_id=2ea3b571b69b4fe8a0a163f5595dbf0c&jupyter_http_over_ws_auth_url=http%3A%2F%2Flocalhost%3A8765%2F
+[I 09:09:23.013 NotebookApp] 302 GET / (::1) 1.27ms
+[I 09:09:24.137 NotebookApp] Kernel restarted: d34712c3-33eb-4986-90fd-ca682cb923d4
+[C 09:09:48.835 NotebookApp] received signal 15, stopping
+[I 09:09:48.836 NotebookApp] Shutting down 1 kernel
+[I 09:09:49.237 NotebookApp] Kernel shutdown: d34712c3-33eb-4986-90fd-ca682cb923d4
+[I 09:09:49.238 NotebookApp] Shutting down 0 terminals
+jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
