@@ -17,7 +17,7 @@ def top_k_logits(logits, k):
     return out
 
 @torch.no_grad()
-def sample(model, x, steps, temperature=1.0, sample=False, top_k=None):
+def sample(model, x, steps, temperature=1.0, sample=False, top_k=None, forbid_logit=None):
     """
     take a conditioning sequence of indices in x (of shape (b,t)) and predict the next token in
     the sequence, feeding the predictions back into the model each time. Clearly the sampling
@@ -31,6 +31,8 @@ def sample(model, x, steps, temperature=1.0, sample=False, top_k=None):
         # pluck the logits at the final step and scale by temperature
         logits = logits[:, -1, :] / temperature
         # optionally crop probabilities to only the top k options
+        if forbid_logit:
+            logits[:, -1, :][forbid_logit] = -float('Inf')
         if top_k is not None:
             logits = top_k_logits(logits, top_k)
         # apply softmax to convert to probabilities
