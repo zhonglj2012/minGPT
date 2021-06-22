@@ -96,3 +96,29 @@ TensorBoard 2.5.0 at http://localhost:6006/ (Press CTRL+C to quit)
 [I 09:09:49.237 NotebookApp] Kernel shutdown: d34712c3-33eb-4986-90fd-ca682cb923d4
 [I 09:09:49.238 NotebookApp] Shutting down 0 terminals
 jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
+[I 09:45:23.331 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[W 09:45:23.509 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 09:45:24.004 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 09:45:24.004 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 09:45:24.472 NotebookApp] [nb_conda] enabled
+[I 09:45:24.570 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 09:45:24.571 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 09:45:24.571 NotebookApp] Serving notebooks from local directory: /home/zhonglj2019/minGPT
+[I 09:45:24.571 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 09:45:24.571 NotebookApp] http://localhost:8765/
+[I 09:45:24.571 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:45:24.574 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:45:27.419 NotebookApp] 302 GET / (::1) 0.51ms
+[I 09:45:27.687 NotebookApp] 302 GET / (::1) 0.37ms
+[I 09:45:27.713 NotebookApp] Kernel started: 2c70b7bb-accb-4a10-a47b-427c0d20d891, name: python3
+[I 09:45:28.543 NotebookApp] 302 GET / (::1) 0.50ms
+[I 09:45:28.547 NotebookApp] proxying WebSocket connection to: ws://localhost:8765/api/kernels/2c70b7bb-accb-4a10-a47b-427c0d20d891/channels?session_id=88d466bd20a64697908ab99c2fe51dba&jupyter_http_over_ws_auth_url=http%3A%2F%2Flocalhost%3A8765%2F
+[I 09:50:18.015 NotebookApp] Starting buffering for 2c70b7bb-accb-4a10-a47b-427c0d20d891:88d466bd20a64697908ab99c2fe51dba
+TensorBoard caught SIGTERM; exiting...
+[C 09:50:18.089 NotebookApp] received signal 15, stopping
+[I 09:50:18.089 NotebookApp] Shutting down 1 kernel
+[I 09:50:19.002 NotebookApp] Kernel shutdown: 2c70b7bb-accb-4a10-a47b-427c0d20d891
+[I 09:50:19.002 NotebookApp] Shutting down 0 terminals
+[I 09:50:19.002 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+jupyter_http_over_ws extension initialized. Listening on /http_over_websocket
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

@@ -30,7 +30,6 @@ class CharDataset(Dataset):
 block_size = 128
 text = open('input.txt', 'r').read()
 train_dataset = CharDataset(text, block_size)
-pickle.dump(train_dataset,open("train_dataset.pkl","wb"))
 
 
 from mingpt.model import GPT, GPTConfig
